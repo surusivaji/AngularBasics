@@ -11,4 +11,10 @@ import { MatDividerModule } from '@angular/material/divider';
 export class ClassBinding {
   mainContent = 'mainContent';
   innerContent = 'innerContent';
+  textJustify = 'textJustify';
+  borderStyle = 'borderStyle';
+  myClass = {
+    textColor : 'textColor',
+    textSize : 'textSize'
+  }
 }

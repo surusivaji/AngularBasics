@@ -1,4 +1,4 @@
-.mainContent {
+/* .mainContent {
     text-align: center;
     margin-top: 40  px;
 }
@@ -13,6 +13,7 @@
             brown,
             rgb(41, 211, 41),
             violet);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
@@ -20,4 +21,20 @@
     font-size: 300px;
     letter-spacing: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.textColor {
+    color: blue;
+}
+
+.textSize {
+    font-size: 20px;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+.borderStyle {
+    border: 2px solid black;
 }

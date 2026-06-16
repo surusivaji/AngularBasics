@@ -2,6 +2,36 @@
     <p class="topic-heading">Class Binding</p>
 </div>
 <mat-divider></mat-divider>
-<div [class]="mainContent">
+<!-- <div [class]="mainContent">
     <p [class]="innerContent">Sivaji</p>
+</div> -->
+<div [ngClass]="myClass">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur animi, est enim perspiciatis officiis provident
+        nihil impedit quibusdam, quia esse necessitatibus qui non quam quidem recusandae ab at dicta corrupti?
+        Voluptatum molestias enim repudiandae maiores, placeat labore dolorum illo aspernatur nostrum vel velit nobis
+        totam dolore magnam et, quisquam rerum! Odio, veniam minima error ab eum animi aperiam. Quae, excepturi!</p>
+</div>
+
+<div [ngClass]="'fs-5 text-danger fw-bold'">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam quos debitis nobis ea porro illum quas id, sint a, impedit maiores animi est odit officiis libero repellendus doloremque dolorem.
+    Nobis magnam repellat quas vel hic saepe culpa. Sit ducimus soluta impedit quam officia numquam nesciunt ipsa, harum pariatur adipisci consequuntur iste quaerat modi rem excepturi labore molestias minus maxime.
+    Dicta facilis cupiditate omnis, sint corrupti laudantium, molestiae quibusdam velit rem quae tempore sapiente doloribus minus quod libero temporibus in vero ab? Est velit porro, rem delectus tenetur aspernatur autem.</p>
+</div>
+
+<div [ngClass]="['text-success', 'fw-bold', 'p-3', 'fs-5', 'textJustify', 'borderStyle', 'm-2']">
+    <ul>
+        <li>
+            The process of providing separate copy of super class properties to each and every sub class this process is called
+            as inheritance.
+        </li>
+        <li>
+            The process binding data members and member functions into a single unit is called as encapsulation.
+        </li>
+        <li>
+            Single entity having many forms is called as polymorphism.
+        </li>
+        <li>
+            This process of hiding method implementation and providing only method signature this process is called as abstraction.
+        </li>
+    </ul>
 </div>
