@@ -1,0 +1,23 @@
+.mainContent {
+    text-align: center;
+    margin-top: 40  px;
+}
+
+.innerContent {
+    background: linear-gradient(to right,
+            red,
+            orange,
+            yellow,
+            blue,
+            indigo,
+            brown,
+            rgb(41, 211, 41),
+            violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 300px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
